@@ -32,7 +32,7 @@
  justify-content: center;
  flex-direction: column;
  align-items: center;
- padding-top: calc(120px + 77px);
+ padding-top: 120px;
 }
 
 .hero-logo {
@@ -631,6 +631,25 @@ ADAPTIVE STYLE
 -------------------------------*/
 
 @media screen and (min-width: 320px) and (max-width: 768px) {  
+
+ .hero {
+   background-position-x: 85%;
+  }
+
+  .hero::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .hero-logo, .hero__title, .hero__social-links {
+    z-index: 3;
+  }
+
  .about__row {
    flex-direction: column;
    padding: 0;
