@@ -1,0 +1,55 @@
+/*----------------------------
+TYPOGRAPHY 
+----------------------------*/
+
+h1 {
+ font-size: calc( var(--index) * 2.5);
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 300;
+}
+
+h2 {
+ font-size: 4rem;
+ font-family: 'Inter', sans-serif;
+ font-weight: 600;
+}
+
+h3 {
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+ font-size: 2rem;
+}
+
+p {
+ font-size: 1.1rem;
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+}
+
+a {
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+}
+
+.text-center {
+ text-align: center;
+}
+
+.paragraph-bold {
+ font-weight: 600;
+ font-size: 1.5rem;
+}
+
+/*---------------------------------
+COLORS 
+---------------------------------*/
+:root {
+--title-color: #B5ACA3;
+--text-color: #655E62;
+--attachment-bg: rgba(212, 200, 190, .5);
+--section-bg: rgba(227, 221, 213, .6); 
+}
+
+:root {
+ --index: calc(1vw + 1vh);
+}
