@@ -37,16 +37,6 @@ const heroLogo = new Vivus(
  }
 );
 
- const contact = new Vivus(
-  'el_3', 
-  {
-    type: 'delayed',
-    duration: 400,
-    pathTimingFunction: Vivus.LINEAR,
-    animTimingFunction: Vivus.LINEAR
-  }
- );
-
  // auto scroll
 
  function scrollTo(element) {

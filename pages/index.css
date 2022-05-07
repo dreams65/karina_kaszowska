@@ -634,6 +634,7 @@ ADAPTIVE STYLE
 
  .hero {
    background-position-x: 85%;
+   background-attachment: initial;
   }
 
   .hero::before {
