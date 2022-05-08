@@ -660,6 +660,8 @@ ADAPTIVE STYLE
    background-image: url(./../aseets/img/about_me_mobile.svg);
    background-size: 300px;
    background-position-x: center;
+   background-position-y: 58px;
+   background-attachment: initial;
  }
 
  .about__column {
@@ -673,6 +675,12 @@ ADAPTIVE STYLE
    left: 50%;
    right: 50%;
    transform: translateX(-50%);
+ }
+
+ .services__untitle {
+   max-width: 300px;
+   width: 100%;
+   margin: 0 auto;
  }
  
  .before-after__row {
@@ -716,6 +724,7 @@ ADAPTIVE STYLE
    background-image: url(./../aseets/img/contact_mobile.svg);
    background-position-x: center;
    background-size: 300px;
+   background-attachment: initial;
  }
 
  .contacts__info {

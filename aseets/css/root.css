@@ -53,3 +53,9 @@ COLORS
 :root {
  --index: calc(1vw + 1vh);
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  h2 {
+   font-size: 3rem;
+  }
+}

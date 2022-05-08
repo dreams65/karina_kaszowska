@@ -9,8 +9,29 @@
   justify-content: space-between;
 }
 
+.header__wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-menu__link {
+  margin-right: 45px;
+  text-transform: uppercase;
+  z-index: 200;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-menu__link:last-child {
+  margin-right: 15px;
+}
+
 .header__logo {
   margin: 0 0 0 15px;
+  justify-self: self-start;
 }
 
 .burger-menu__button {
@@ -24,12 +45,16 @@
   top: 0;
 }
 
+.header__nav {
+  display: block;
+}
+
 .burger-menu__lines,
 .burger-menu__lines::after,
 .burger-menu__lines::before {
   position: absolute;
-  width: 40px;
-  height: 3px;
+  width: 30px;
+  height: 2px;
   background-color: #fff;
 }
 

@@ -15,6 +15,10 @@ CUSTOM STYLES
   display: flex;
 }
 
+.white-popup-block {
+  padding: 0 25px;
+}
+
 .modal__text {
   max-width: 800px;
   max-height: 500px;
@@ -135,6 +139,7 @@ END CUSTOM STYLES
  background-color: rgba(255, 255, 255, 0.66);
  max-width: 1200px;
  border-radius: 25px;
+ 
 }
 
 .mfp-inline-holder .mfp-content,
